@@ -14,7 +14,7 @@ const Home = () => {
     const [tabValue,setTabValue] = useState(0);
     const [classNameCom,setClassNameCom] = useState("active");
     return (
-        <Box sx={{display:"flex",alignItems:'center',justifyContent:'center',height:"100vh"}}>
+        <Box>
             <Header setTabValue={setTabValue}/>
             <img src={behruz} alt="bg-img" style={{ position: 'absolute', width: '100%', objectFit: "cover", top: "0", left: "0", height: '100%', zIndex:'-1',mixBlendMode: 'multiply'}} />
             <Container className='main-wrape'>

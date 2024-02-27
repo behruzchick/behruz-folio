@@ -8,20 +8,26 @@ import './Home.css'
 import { useGSAP } from '@gsap/react';
 const Main = () => {
     useGSAP(() => {
-        gsap
-        .timeline()
+        const timeline = gsap.timeline();
+        timeline
         .from('.text-wrape',{
             opacity:0,
             x:"-500",
             duration:1.3
         })
-        gsap
-        .timeline()
-        .from('.img-wrape',{
-            opacity:0,
-            x:"300",
-            duration:1.3
-        })
+
+
+        if (window.matchMedia('(max-width: 1000px)').matches) {
+            timeline
+                .from('.img-wrape', { y:'300',duration:1.3 ,opacity:0});
+          }else{
+            timeline
+            .from('.img-wrape',{
+                opacity:0,
+                x:"50",
+                duration:1.3
+            })
+          }
     },[])
   return (
     <Container className='main-container' sx={{

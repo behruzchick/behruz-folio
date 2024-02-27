@@ -6,15 +6,21 @@ import behruz2 from '../images/behruz-2.jpg'
 import './About.css'
 const About = ({ classNameCom }) => {
   useGSAP(() => {
-    gsap
-      .timeline()
+    const timeline = gsap.timeline();
+    timeline
       .from('.about-img-wrape', { x: '-300', duration: 1.3, opacity: 0 })
-    gsap
-      .timeline()
-      .from('.about-text-wrape', { x: '300', duration: 1.3, opacity: 0 })
+
+
+      if (window.matchMedia('(max-width: 1000px)').matches) {
+        timeline
+            .from('.about-text-wrape', { y:'300',duration:1.3 ,opacity:0});
+      }else{
+        timeline
+        .from('.about-text-wrape', { x: '50', duration: 1.3, opacity: 0 })
+      }
   })
   return (
-    <Container className={'about'} sx={{ zIndex: '500', display: "flex" }}>
+    <Container className={'about'}>
       <Box className='about-img-wrape'>
         <header className='about-img-wrape-header'>
           <h3 style={{ color: "white", marginLeft: '13px' }}>ABOUT ME</h3>

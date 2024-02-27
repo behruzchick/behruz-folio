@@ -24,7 +24,7 @@ const Projects = ({ classNameCom }) => {
   return (
     <Container className='projects'>
       <Box className='projects-header'>
-        <h3 style={{ color: "white" }}>Projects</h3>
+        <h3 style={{ color: "white" }}>PROJECTS</h3>
         {/* <ToggleButtonGroup
           color="secondary"
           value={alignment}
