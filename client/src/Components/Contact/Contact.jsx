@@ -89,6 +89,8 @@ const Contact = ({ classNameCom }) => {
           }
           sx={{ mb: 2 }}
         >
+          Форма успешно отпавлено в почту!
+          <br />
           Может в instagram напишешь ????
         </Alert>
       </Collapse>
