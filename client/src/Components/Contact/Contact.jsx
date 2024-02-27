@@ -105,6 +105,7 @@ const Contact = ({ classNameCom }) => {
           </Button>
           <Button color='secondary' href='https://www.instagram.com/behruz_akbaraliev/' target='_blank' sx={{ color: "primary" }}>
             <InstagramIcon />
+            
           </Button>
           <Button href='https://t.me/behruz_akbarliev' target='_blank' sx={{ color: "primary" }}>
             <TelelgramIcon />
