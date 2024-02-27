@@ -89,7 +89,7 @@ const Contact = ({ classNameCom }) => {
           }
           sx={{ mb: 2 }}
         >
-          Click the close icon to see the Collapse transition in action!
+          Может в instagram напишешь ????
         </Alert>
       </Collapse>
 
