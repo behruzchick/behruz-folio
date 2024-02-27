@@ -16,7 +16,7 @@ const Contact = ({ classNameCom }) => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const form = useRef();
 
   useGSAP(() => {
@@ -90,7 +90,7 @@ const Contact = ({ classNameCom }) => {
           sx={{ mb: 2 }}
         >
           Форма успешно отпавлено в почту!
-          <br />
+          
           Может в instagram напишешь ????
         </Alert>
       </Collapse>
@@ -105,7 +105,6 @@ const Contact = ({ classNameCom }) => {
           </Button>
           <Button color='secondary' href='https://www.instagram.com/behruz_akbaraliev/' target='_blank' sx={{ color: "primary" }}>
             <InstagramIcon />
-            
           </Button>
           <Button href='https://t.me/behruz_akbarliev' target='_blank' sx={{ color: "primary" }}>
             <TelelgramIcon />
