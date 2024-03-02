@@ -14,5 +14,10 @@ export const projects = [
         title:'React file managment',
         link:'https://rainbow-daifuku-05ddbf.netlify.app'
     },
+    {
+        img:"https://i.imgur.com/TSb4hsY.png",
+        title:'React movie app',
+        link:'https://movie-app-ten-cyan-76.vercel.app/'
+    },
 ]
 
