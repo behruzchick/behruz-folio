@@ -19,6 +19,11 @@ export const projects = [
         title:'React movie app',
         link:'https://movie-app-ten-cyan-76.vercel.app/'
     },
+    {
+        img:"https://i.imgur.com/zrcsxho.png",
+        title:'Rest Countries app',
+        link:'https://tangerine-seahorse-aa7973.netlify.app'
+    },
 ]
 
 
