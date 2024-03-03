@@ -24,6 +24,11 @@ export const projects = [
         title:'Rest Countries app',
         link:'https://tangerine-seahorse-aa7973.netlify.app'
     },
+    {
+        img:"https://i.imgur.com/5D7yGUs.png",
+        title:'Crypto App',
+        link:'https://taupe-gecko-0efb43.netlify.app'
+    },
 ]
 
 
