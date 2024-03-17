@@ -29,6 +29,11 @@ export const projects = [
         title:'Crypto App',
         link:'https://taupe-gecko-0efb43.netlify.app'
     },
+    {
+        img:"https://i.imgur.com/IfFg2rl.png",
+        title:'Blog wen app',
+        link:'https://funny-squirrel-c90649.netlify.app'
+    },
 ]
 
 
