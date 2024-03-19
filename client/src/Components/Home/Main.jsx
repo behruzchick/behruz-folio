@@ -4,6 +4,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import krasavchik from '../images/krasavchik.jpg'
 import gsap from 'gsap';
+import rezume from '../images/index.html.pdf'
 import './Home.css'
 import { useGSAP } from '@gsap/react';
 const Main = () => {
@@ -47,6 +48,7 @@ const Main = () => {
             <Box className='btns-wrape'>
                 <Button href='https://www.instagram.com/behruz_akbaraliev/' target='_blank' size='large' color='secondary'><InstagramIcon/></Button>
                 <Button href='https://t.me/behruz_akbarliev' size='large' target='_blank' ><TelegramIcon/></Button>
+                <Button href={rezume} size='large' target='_blank' >Download CV</Button>
             </Box>
         </Box>
         <Box className='img-wrape'>
