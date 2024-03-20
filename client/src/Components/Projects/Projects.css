@@ -14,6 +14,11 @@
 }
 .image-list::-webkit-scrollbar-thumb{
     opacity: 0;
+    background-color: black;
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 10px;
+
 }
 .image-list::-webkit-scrollbar-track{
     opacity: 0;
@@ -59,4 +64,22 @@
     .image-block{
         width: 200px;
     }
+}
+
+.modal-box{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+.close-icon{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
 }
