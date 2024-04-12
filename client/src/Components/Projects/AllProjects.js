@@ -1,5 +1,12 @@
 export const projects = [
     {
+        img:"https://i.imgur.com/xf0DycK.png",
+        title:'Spotify clone',
+        link:'https://tranquil-valkyrie-74a477.netlify.app/',
+        description:'This project make to personals prpjects, in spotify web api.',
+        gitHubLink:'https://github.com/behruzchick/spotify-clone'
+    },
+    {
         img:"https://i.imgur.com/PTVkoPv.png",
         title:'Instagram clone',
         link:'https://lovely-begonia-033a8a.netlify.app/register',
