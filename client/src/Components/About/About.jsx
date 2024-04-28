@@ -30,7 +30,7 @@ const About = ({ classNameCom }) => {
       <Box className='about-text-wrape'>
         <ul className='about-info' style={{ color: "white" }}>
           <li>Hi I'm Behruz , at 17 years old , born in Tashkent in 2006</li>
-          <li>I'm doing Frontend and Backend concepts [MERN stack] work on creating responsive web interfaces and backend.</li>
+          <li>I'm doing Frontend and Backend concepts work on creating responsive web interfaces.</li>
           <li>I am proficient in technologies such as Javascript, HTML, CSS, Node js, React js, Bootstrap , Material UI.</li>
           <li>I strive for a high level of experience in web application and website development and am willing to embrace modern technologies to create scalable and implement clear web applications. I actively study new technologies and follow best practices in the field of Frontend development.</li>
         </ul>
