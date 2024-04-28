@@ -28,12 +28,6 @@ export const projects = [
 
     },
     {
-        img:"https://i.imgur.com/IfFg2rl.png",
-        title:'Blog web app',
-        link:'https://funny-squirrel-c90649.netlify.app',
-        description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur laboriosam sunt nemo nulla aut itaque obcaecati ratione ex, iste animi illo veniam rerum rem sed optio officia suscipit minima tempora enim perferendis ipsa? Sapiente, reprehenderit maiores possimus optio maxime molestiae!'
-    },
-    {
         img:'https://i.imgur.com/oHKjwqm.png',
         title:'Gihub search users app',
         link:'https://cute-kelpie-c2284b.netlify.app/',
