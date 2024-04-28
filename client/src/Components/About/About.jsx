@@ -2,7 +2,7 @@ import { useGSAP } from '@gsap/react'
 import { Box, Container } from '@mui/material'
 import gsap from 'gsap'
 import React from 'react'
-import behruz2 from '../images/behruz.jpg'
+import behruz2 from '../images/behuz-10.jpg'
 import './About.css'
 const About = ({ classNameCom }) => {
   useGSAP(() => {
