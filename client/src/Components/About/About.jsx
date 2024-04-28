@@ -25,7 +25,7 @@ const About = ({ classNameCom }) => {
         <header className='about-img-wrape-header'>
           <h3 style={{ color: "white", marginLeft: '13px' }}>ABOUT ME</h3>
         </header>
-        <img className='about-img' src={behruz2} alt="" />
+        <img className='about-img' height={"300px"} src={behruz2} alt="" />
       </Box>
       <Box className='about-text-wrape'>
         <ul className='about-info' style={{ color: "white" }}>
