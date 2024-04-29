@@ -7,6 +7,13 @@ export const projects = [
         gitHubLink:'https://github.com/behruzchick/spotify-clone'
     },
     {
+        img:"https://i.imgur.com/RmlglZa.png",
+        title:'React fake story shopping app',
+        link:'https://lucent-squirrel-339fd7.netlify.app',
+        description:'This project make to personals prpjects, in fake story web api.',
+        gitHubLink:'https://github.com/behruzchick/react-shop'
+    },
+    {
         img:"https://i.imgur.com/TSb4hsY.png",
         title:'React movie app',
         link:'https://movie-app-ten-cyan-76.vercel.app/',
