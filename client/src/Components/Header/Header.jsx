@@ -2,6 +2,7 @@ import AppBar from '@mui/material/AppBar'
 import { Box, Container, IconButton, Menu, MenuItem, Tab, Tabs, Toolbar, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 function Header({ setTabValue }) {
 
     function a11yProps(index) {
@@ -10,6 +11,8 @@ function Header({ setTabValue }) {
             'aria-controls': `full-width-tabpanel-${index}`,
         };
     }
+
+    const navigate = useNavigate();
 
     const [anchorElNav, setAnchorElNav] = useState(null);
     const handleOpenNavMenu = (event) => {
@@ -33,7 +36,7 @@ function Header({ setTabValue }) {
             <AppBar position='static' sx={{ bgcolor: 'text.disabled', position: 'absolute', top: '0', zIndex: '300' }}>
                 <Container maxWidth='x1'>
                     <Toolbar>
-                        <Typography variant='h4'>
+                        <Typography variant='h4' style={{cursor:'pointer'}} onClick={() => navigate('/')}>
                             BZ
                         </Typography>
                         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none', justifyContent: "flex-end" } }}>

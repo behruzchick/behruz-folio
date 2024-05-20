@@ -4,7 +4,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import krasavchik from '../images/krasavchik.jpg'
 import gsap from 'gsap';
-import rezume from '../images/index.html.pdf'
+import rezume from '../images/cv.pdf'
 import './Home.css'
 import { useGSAP } from '@gsap/react';
 const Main = () => {
@@ -36,12 +36,12 @@ const Main = () => {
     }}>
         <Box className='text-wrape'>
             <p className='main-p' style={{color:"gray",marginBottom:"0px"}}>
-                I'm Fullstack developer
+                I'm Frontend developer
             </p>
             <h1 className='main-h1' style={{color:"white"}}>
                 Hello!
             </h1>
-            <h6 className='main-h6' style={{color:"white",marginTop:"0px"}}>
+            <h6 className='main-h6' style={{color:"white",margin:"0px"}}>
                 My name is Behruz
             </h6>
 
